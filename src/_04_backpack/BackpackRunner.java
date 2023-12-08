@@ -5,6 +5,10 @@ public class BackpackRunner {
 		new Backpack().packAndCheck();
 	}
 
+	private Pencil pencil;
+	private Ruler ruler;
+	private Textbook textbook;
+
 
 	
 	public void putInBackpack(Pencil supply) {
