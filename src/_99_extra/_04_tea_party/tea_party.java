@@ -1,11 +1,23 @@
 package _99_extra._04_tea_party;
 
+import org.junit.Test;
+
 public class tea_party {
-	    public void welcome(String name, boolean isWoman, boolean isKnighted) {
-	    	static org.junit.Assert.assertEquals;
-	    	org.junit.Test;
+	    private static final String string = null;
+		private Object actual;
+
+		
 	    	
-	    	public class tea_party {
+		
+			public tea_party() {
+				// TODO Auto-generated constructor stub
+			}Assert.assertEquals;
+	    	
+			public void welcome(String name, Class<Boolean> class1, Class<Boolean> class2, Class<Boolean> class3) {
+			}
+		
+	 
+			Final class tea_party<TeaParty> {
 	    		/**
 	    		 * Jane Austen is a woman, so say “Hello Ms. Austen”. 
 	    		 * George Orwell is a man, so say “Hello Mr. Orwell”. 
@@ -38,6 +50,11 @@ public class tea_party {
 
 	    	}
 	    	    
-	    	league-logo
+	    	Object logo;
+			Object league = logo;
 	    }
-}
+
+		
+			
+
+
