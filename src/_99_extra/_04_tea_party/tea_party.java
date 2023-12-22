@@ -17,7 +17,7 @@ public class tea_party {
 			}
 		
 	 
-			Final class tea_party<TeaParty> {
+			class tea_party<TeaParty> {
 	    		/**
 	    		 * Jane Austen is a woman, so say “Hello Ms. Austen”. 
 	    		 * George Orwell is a man, so say “Hello Mr. Orwell”. 

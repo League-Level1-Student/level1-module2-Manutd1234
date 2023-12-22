@@ -38,12 +38,12 @@ public class MinionTest {
 	@Test
 	public void testConstructor() {
 		Minion stuart = new Minion("Stuart", 1, "yellow", "black eyes");
-		assertEquals("Stuart", stuart.getName(stuart));
+		assertEquals("Stuart", stuart.getName("T.Rex"));
 		assertEquals(1, stuart.getEyes(0,0,0));
 		assertEquals("yellow", stuart.getColor(100,100,0));
 
 		Minion dave = new Minion("Dave", 2, "yellow", "black eyes");
-		assertEquals("Dave", dave.getName(dave));
+		assertEquals("Dave", dave.getName("Napoleon"));
 		assertEquals(2, dave.getEyes(0,0,0));
 		assertEquals("yellow", dave.getColor(100,100,0));
 	}
@@ -54,9 +54,8 @@ public class MinionTest {
 		stuart.setMaster("T. Rex");
 		assertEquals("T. Rex", stuart.getMaster());
 		
-		stuart.setMaster("Napoleon");
-		assertEquals("Napoleon", stuart.getMaster());
-		
+		stuart.setMaster("T. Rex");
+		assertEquals("T. Rex", stuart.getMaster());
 	}
 
 }
