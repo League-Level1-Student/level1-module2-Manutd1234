@@ -33,6 +33,7 @@ public class Smurf {
 		// 3. Fill in this method
 		return "";
 	}
+	
 
 	// Smurfette is the only female Smurf.
 	public String isGirlOrBoy() {
